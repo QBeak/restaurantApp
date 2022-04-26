@@ -1,0 +1,54 @@
+.marquee{
+    width: 60%;
+    height: 6cm;
+    overflow: hidden;
+    justify-content: center;
+    align-content: center;
+    margin-left: 20%;
+    color: black;
+  }
+  
+  .marquee-elements{
+    align-items: center;
+    height: 100%;
+    width: 24%;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    animation-name: scrolling;
+    animation-duration: 70s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+    
+  }
+  @keyframes scrolling {
+    0% {transform: translateX(80vw);}
+    100%{transform: translateX(-180vw);}
+  }
+  
+  .marquee-elements li{
+    flex-shrink: 0;
+    white-space: nowrap;
+    border: 50px solid rgb(255, 255, 255);
+  }
+
+  .content{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(85, 99, 99);
+    color: rgb(255, 255, 255);
+  }
+  
+  .list-flex{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .list-main{
+    margin-inline: 3cm;
+  }
+
+  .list-main li{
+    text-align: start;
+  }

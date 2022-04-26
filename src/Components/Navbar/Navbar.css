@@ -1,0 +1,41 @@
+.navbar{
+    background-color: rgb(43, 37, 37);
+    color: antiquewhite;
+    
+}
+
+.navbar .navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1cm;
+}
+
+.navbar .navbar-links{
+    display:flex;
+    list-style: none;
+    justify-items:center;
+}
+.navbar .navbar-links li{
+    margin-inline: 30px; 
+    color: antiquewhite;
+}
+
+.navbar img{
+    height: 8cm;
+    width: 100%;
+}
+
+.navname{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+.Link{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.Link:hover{
+    color: aqua;
+}
